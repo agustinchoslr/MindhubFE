@@ -1,0 +1,41 @@
+
+    /* Estilo para el recuadro verde del encabezado */
+    .header {
+        background-color: green;
+        display: flex;
+      }
+      /* Estilo para la foto de perfil */
+      .profile-picture {
+        width: 100px;
+        height: 100px;
+      }
+      /* Estilo para los datos del encabezado */
+      .header-data {
+        color: white;
+        margin-left: 20px;
+      }
+      /* Estilo para el título "Front End Developer" */
+      .title {
+        color: #ddd;
+        text-align: center;
+      }
+      /* Estilo para listón verde claro */
+      .nav-bar{
+        background-color: #ddffdd;
+        width: 200px;
+        height: 100%;
+          position: absolute;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          padding: 10px;
+      }
+      /* Estilo para las secciones centrales */
+      main {
+        width: 80%;
+        margin: 0 auto;
+      }
+      /* Estilo para los títulos de las secciones centrales */
+      .section-title {
+        font-weight: bold;
+      }
