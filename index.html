@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- respecto al html de la main cambia los 3 stylesheet, la organizacion de la carpeta, se reemplaza figcaption x section y este comentario claro. se recomendó quitar UL y sus li del nav, que no hacen falta dijeron y se agrega # a la página donde uno está -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./assets/styles/style3.css">  -->
+    <link rel="stylesheet" href="./assets/styles/style2.css">
+    <!-- <link rel="stylesheet" href="./assets/styles/style1.css"> -->
     <title>Mighty Ducks Hockey League</title>
 </head>
+
 <body>
-    <header> 
-        <img src="./Logo-Mighty-ducks.png" width="150" alt="logo de la liga de hockey Mighty Ducks">
-         <h1>Mighty Ducks Hockey League</h1>
+    <header>
+        <figure>
+            <img src="./assets/img/Logo-Mighty-ducks.png" width="150" alt="logo de la liga de hockey Mighty Ducks">
+        </figure>
+        <h1>Mighty Ducks Hockey League</h1>
         <nav>
-        <ul>
-                <li>Home |</li> 
-                <li><a href="./about.html">About MDHL</a> | </li> 
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./about.html">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
-        </ul>
-</nav>
+            </ul>
+        </nav>
     </header>
-        <main>
-                <figure>
-                 <img src="./hockey1.jpg" width="150" alt="Niña en primer plano practicando hockey con uniforme rojo y blanco">
-                 <figcaption>
-                    <h2>Upcoming Events</h2>
-                    <h4>August 4</h4>
-                    <span>MDSL Fundraiser</span><br>
-                    <h4>August 16</h4>
-                    <span>Season Kick-off: Meet the Teams</span><br>
-                    <h4>September 1</h4>
-                    <span>First Game of the Season (Check Game Schedule for details)</span>
-                </figcaption>
-                </figure>
-        </main>
+    <main>
+        <figure>
+            <img src="./assets/img/hockey1.jpg" width="150"
+                alt="Niña en primer plano practicando hockey con uniforme rojo y blanco">
+        </figure>
+        <section>
+            <h2>Upcoming Events</h2>
+            <h4>August 4</h4>
+            <span>MDSL Fundraiser</span><br>
+            <h4>August 16</h4>
+            <span>Season Kick-off: Meet the Teams</span><br>
+            <h4>September 1</h4>
+            <span>First Game of the Season (Check Game Schedule for details)</span>
+        </section>
+
+    </main>
 </body>
+
 </html>
