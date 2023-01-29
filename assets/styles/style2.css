@@ -26,7 +26,7 @@ h1 {
 }
 
 section>h2{
-    color: antiquewhite;
+    color: white;
     background-color: black;
     padding: 5px;    
     margin: 0 150px 0 150px;
@@ -46,6 +46,7 @@ nav{
 
 nav a{
     color: white;
+    text-decoration: none;
 }
 
 nav li{
@@ -53,6 +54,10 @@ nav li{
     background-color: blue;    
     margin: 5px;
     padding: 5px 15px;
+}
+
+nav li:hover{
+    background-color: green;
 }
 
 h1{
