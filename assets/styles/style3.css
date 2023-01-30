@@ -1,0 +1,38 @@
+nav{
+    position:absolute;
+    top: 60px;
+    left: 250px;
+}
+
+li {
+    display: inline-block;
+    background-color: burlywood;
+    padding: 10px;
+    margin: 2px;    
+}
+
+li:hover {
+    background-color: chocolate;
+}
+li a:hover {
+color:darkorange;
+}
+
+h1{
+    display: none; 
+}
+
+section, main figure {
+display: inline-block;
+}
+
+h3, p {
+    position: relative;
+    left: 250px;
+    top: -170px;
+}
+
+h2 {
+    position:relative;
+    left: 45px;
+}
