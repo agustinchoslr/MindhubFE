@@ -1,3 +1,9 @@
+nav{
+    position:absolute;
+    top: 60px;
+    left: 250px;
+}
+
 li {
     display: inline-block;
     background-color: burlywood;
@@ -13,17 +19,20 @@ color:darkorange;
 }
 
 h1{
-    display: inline; 
-    position: relative;
-top: -55px;
-color: #fcb64e;
-}
-
-nav {
-    display: inline-block; 
-    position: fixed;
+    display: none; 
 }
 
 section, main figure {
 display: inline-block;
+}
+
+h3, p {
+    position: relative;
+    left: 250px;
+    top: -170px;
+}
+
+h2 {
+    position:relative;
+    left: 45px;
 }

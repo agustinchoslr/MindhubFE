@@ -1,15 +1,18 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
 }
 
-header figure{
+header figure {
     background-image: url("../img/wideimage.jpg");
     background-position: center;
     padding: 0px 0px 190px 0px;
     margin: 100px 150px 0 150px;
-    
+
 }
 
 /* h1{
@@ -25,61 +28,61 @@ h1 {
     /* top: 0px; */
 }
 
-section>h2{
+h2 {
     color: white;
     background-color: black;
-    padding: 5px;    
+    padding: 5px;
     margin: 0 150px 0 150px;
     text-align: center;
-    
+
 }
 
-main>figure>img{ 
+main>figure>img {
     display: none;
 }
 
-nav{
-    position:absolute;
+nav {
+    position: absolute;
     top: 80px;
     left: 860px;
 }
 
-nav a{
+nav a {
     color: white;
     text-decoration: none;
 }
 
-nav li{
+nav li {
     display: inline-block;
-    background-color: blue;    
+    background-color: blue;
     margin: 5px;
     padding: 5px 15px;
 }
 
-nav li:hover{
+nav li:hover {
     background-color: green;
 }
 
-h1{
+h1 {
     position: absolute;
-    top:63px;
+    top: 63px;
     left: 400px;
 
 }
 
-header figure img{
-position: absolute;
-top: 325px;
+header figure img {
+    position: absolute;
+    top: 325px;
 }
 
 section>h4 {
-    position:relative;
-    left:400px;
-    top:25px;
+    position: relative;
+    left: 400px;
+    top: 25px;
 }
 
-section>span{
-    position:relative;
+section>span, h3, p {
+    position: relative;
     left: 400px;
-    top:25px;
+    top: 25px;
 }
