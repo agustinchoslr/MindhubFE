@@ -16,8 +16,8 @@ header>figure {
 }
 
 h1 {
-    background-image: url("../img/wideimage.jpg");
-    background-position: center;
+    background-image: url("../img/squareimg.jpg");
+    background-position: 0% 20%;
     padding: 0px 0px 190px 0px;
     margin: 0 150px 3px 150px;
     font-size: 57px;
