@@ -54,6 +54,7 @@ section>span, h3, p {
     position: relative;
     left: 400px;
     top: 40px;
+    max-width: 700px;
 }
 
 span {
