@@ -84,10 +84,19 @@ caption{
 caption>p{
     text-decoration: underline;
 }
-/* article>table{
-    display: flex;
-    justify-content: space-between;
-} */
+
+article>table{
+    padding: 40px 0;
+
+}
+
+table td{
+    padding: 5px 15px;
+}
+
+span{
+    text-align: right;
+}
 
 /* header{
     display: flex;
