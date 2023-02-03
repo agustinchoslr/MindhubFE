@@ -31,15 +31,23 @@ h2 {
     color: white;
     background-color: black;
     padding: 5px;
-    margin: 0 150px 0 150px;
+    margin: 0 150px 50px 150px;
     text-align: center;
 
 }
 
+main{
+    display: flex;
+    flex-direction: row;   
+    /* position: relative;
+    left: 400px;
+    top: 40px;
+    max-width: 700px; */
+}
+
 nav {
-    position: absolute;
-    top: 320px;
-    left: 170px;
+    position: sticky;
+    margin: 0 100px 0 200px;
 }
 
 nav li {
@@ -47,16 +55,29 @@ nav li {
     margin: 10px;
     padding: 5px 15px;
     text-decoration: none;
+    border: 20px;
+    border-color: blue;
 }
 
-section>h4,
-section>span, h3, p {
-    position: relative;
-    left: 400px;
-    top: 40px;
+article>h2, section>h2{
+    display: none;
+}
+
+article{
     max-width: 700px;
 }
 
-span {
-    margin-bottom: 20px;
+article>ol>ol{
+    list-style-type:lower-latin;
 }
+
+/* lo siguiente no funciona */
+article>p>ul>li{
+    list-style-type: circle;
+    text-indent: 400px;
+}
+/* header{
+    display: flex;
+    flex-direction: column;
+    
+} */
