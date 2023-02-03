@@ -76,6 +76,19 @@ article>p>ul>li{
     list-style-type: circle;
     text-indent: 400px;
 }
+
+caption{
+    text-align: left;
+}
+
+caption>p{
+    text-decoration: underline;
+}
+/* article>table{
+    display: flex;
+    justify-content: space-between;
+} */
+
 /* header{
     display: flex;
     flex-direction: column;
