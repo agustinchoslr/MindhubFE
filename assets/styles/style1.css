@@ -128,8 +128,17 @@ span{
 }
 
 section{
-    background-color: white;
-    z-index: 2;max-width: 650px;
+    /* background-color: white; */
+    z-index: 2;
+    max-width: 650px;
+}
+
+fieldset{
+    display: flex;    
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 aside div.cards {
