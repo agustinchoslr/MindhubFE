@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+li, h1{
+    display: inline-flex;
+}
+
+      /* Estilo para dar indentación al párrafo del about */
+p{
+    text-indent: 1em
+}

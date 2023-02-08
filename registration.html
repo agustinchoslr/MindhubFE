@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./assets/styles/style3.css">  -->
+    <!-- <link rel="stylesheet" href="./assets/styles/style2.css"> -->
+    <link rel="stylesheet" href="./assets/styles/style1.css">
+    <title>Registration Form MDHL</title>
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="./assets/img/Logo-Mighty-ducks.png" width="150" alt="logo de la liga de hockey Mighty Ducks">
+        </figure>
+        <h1>Registration Form MDHL</h1>
+
+        <h2>Registration Form</h2>
+    </header>
+    <main>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a> </li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./rules.html">Rules</a></li>
+                <li><a href="./game_info.html">Game Info</a></li>
+                <li><a href="#">Registration Form</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- <figure>
+            <img src="./assets/img/hockey1.jpg" width="150"
+                alt="Niña en primer plano practicando hockey con uniforme rojo y blanco">
+        </figure> -->
+        <section>
+            <h2>Registration Form</h2>
+            <form id="regForm" action="/show_data.html" method="get">
+                <fieldset>
+                    <legend>
+                        <h5>Player Personal Data</h5>
+                    </legend>
+                    <label for="firstName">First Name:
+                        <input type="text" name="firstName" id="" placeholder="Player first name" required>
+                    </label>
+                    <label for="lastName">Last Name:
+                        <input type="text" name="lastName" id="lastName">
+                    </label>
+                    <label for="streetAddress">Street Address
+                        <input type="text" name="streetAddress" id="streetAddress">
+                    </label>
+                    <label for="city">City:
+                        <input type="text" name="city" id="city ">
+                    </label>
+                    <label for="zipCode">Zip Code:
+                        <input type="text" name="zipCode" id="zipCode">
+                    </label>
+                    <label for="birthDate">Birth Date (mm/dd/aaaa):
+                        <input type="text" name="birthDate" id="birthDate">
+                    </label>
+                    <label for="gender">Gender: Male
+                        <input type="radio" name="gender" value="Masc"/>
+                    </label>
+                    <label for="gender">Female
+                        <input type="radio" name="gender" value="Fem"/>
+                    </label>
+
+                    <label for="grade">Grade:
+                    </label>
+                    <label for="grade">Pre School
+                        <input type="radio" name="grade" value="preSchool"></label>
+                    <label for="grade">1st
+                        <input type="radio" name="grade" value="firstGrade"></label>
+                    <label for="grade">2nd
+                        <input type="radio" name="grade" value="secondGrade"></label>
+                    <label for="grade">3rd
+                        <input type="radio" name="grade" value="thirdGrade"></label>
+                    <label for="grade">4th
+                        <input type="radio" name="grade" value="fourthGrade"></label>
+                    <label for="grade">5th
+                        <input type="radio" name="grade" value="fifthGrade"></label>
+
+
+            </form>
+            </fieldset>
+            <h5>Which elementary school do you live near?</h5>
+
+            <fieldset form="regForm">
+                <legend>Closest School: </legend>
+                <label for="closestSchool">Closest School: </label>
+                <select name="closestSchool" id="closestSchool">
+                    <option value="Katzenmaier">Aj Katzenmaier</option>
+                    <option value="Greenbay">Greenbay</option>
+                    <option value="Yeager">Howard A Yeager</option>
+                    <option value="Marjorie">Marjorie P Hart</option>
+                    <option value="North">North Elementary</option>
+                    <option value="South">South Elementary</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>What Position(s) do you normally play (check all that apply)</legend>
+                <label form="regForm" for="position"> Forward
+                    <input form="regForm" type="checkbox" name="position" value="Forward">
+                </label>
+
+                <label form="regForm" for="position"> Defense
+                    <input form="regForm" type="checkbox" name="position" value="Defense">
+                </label>
+
+                <label form="regForm" for="position"> Midfield
+                    <input form="regForm" type="checkbox" name="position" value="Midfield">
+                </label>
+
+                <label form="regForm" for="position"> Goalkeeper
+                    <input form="regForm" type="checkbox" name="position" value="Goalkeeper">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Uniform Size:</legend>
+                <label form="regForm" for="uniformSize">Youth Small
+                    <input form="regForm" type="radio" name="uniformSize" value="">
+                </label>
+
+
+                <label form="regForm" for="uniformSize">Youth Medium
+                    <input form="regForm" type="radio" name="uniformSize" value="Yout Medium">
+                </label>
+
+
+                <label form="regForm" for="uniformSize">Youth Large
+                    <input form="regForm" type="radio" name="uniformSize" value="Youth Large">
+                </label>
+
+
+                <label form="regForm" for="uniformSize">Small
+                    <input form="regForm" type="radio" name="uniformSize" value="Small">
+                </label>
+
+
+                <label form="regForm" for="uniformSize">Medium
+                    <input form="regForm" type="radio" name="uniformSize" value="Medium">
+                </label>
+
+
+                <label form="regForm" for="uniformSize">Large
+                    <input form="regForm" type="radio" name="uniformSize" value="Large">
+                </label>
+
+
+                <label form="regForm" for="uniformSize">Extra Large
+                    <input form="regForm" type="radio" name="uniformSize" value="Extra Large">
+                </label>
+            </fieldset>
+
+            <h3>Permission to Play:</h3>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                associated with hockey and in consideration for the "League" accepting the registrant for its hockey
+                programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees
+                and associated personnel and volunteers, including the facilities used for practices and games, against
+                any claim by or on behalf of the registrant as a result of the registrant's participation in the
+                programand/orbeing transported to or from MDHL sponsored activities, which transportation</p>
+
+            <p>By entering my name below, herebyagree andauthorizethe above. In addition, by entering my name below,
+                also
+                acknowledge that I have read the cancellation policy and agree to its terms</p>
+
+            <label form="regForm" for="sign">Parent/Guardian Signature:</label>
+            <input type="text" name="sign" id="sign" required form="regForm">
+            <label for="signDate" form="regForm">Date:
+                <textarea name="signDate" id="signDate" cols="80" rows="2" required></textarea> </label>
+                <button type="submit" form="regForm" value="Submit">Submit</button>
+            </section>
+    </main>
+</body>
+
+</html>

@@ -31,15 +31,24 @@ h2 {
     color: white;
     background-color: black;
     padding: 5px;
-    margin: 0 150px 0 150px;
+    margin: 0 150px 50px 150px;
     text-align: center;
 
 }
 
+main{
+    display: flex;
+    flex-direction: row;   
+    align-content: space-between;
+    /* position: relative;
+    left: 400px;
+    top: 40px;
+    max-width: 700px; */
+}
+
 nav {
-    position: absolute;
-    top: 320px;
-    left: 170px;
+    position: sticky;
+    margin: 0 100px 0 200px;
 }
 
 nav li {
@@ -47,16 +56,108 @@ nav li {
     margin: 10px;
     padding: 5px 15px;
     text-decoration: none;
+    border: 20px;
+    border-color: blue;
 }
 
-section>h4,
-section>span, h3, p {
-    position: relative;
-    left: 400px;
-    top: 40px;
-    max-width: 700px;
+article>h2, section>h2{
+    display: none;
 }
 
-span {
-    margin-bottom: 20px;
+article{
+    max-width: 668px;
 }
+
+article>ol>ol{
+    list-style-type:lower-latin;
+}
+
+/* lo siguiente no funciona */
+article>p>ul>li{
+    list-style-type: circle;
+    text-indent: 400px;
+}
+
+caption{
+    text-align: left;
+}
+
+caption>p{
+    text-decoration: underline;
+}
+
+article>table{
+    padding: 40px 0;
+
+}
+
+table td{
+    padding: 5px 15px;
+}
+
+span{
+    text-align: right;
+}
+
+.mapaOculto{
+    display: none;
+    visibility: hidden;
+}
+
+.hover:hover {
+    position:relative;
+}
+
+.tooltip {
+  /* top:-10px; */
+  background-color:black;
+  color:white;
+  border-radius:5px;
+  opacity:0;
+  position:absolute;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition:  opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition:  opacity 0.5s;
+  transition:  opacity 0.5s;
+}
+
+.hover:hover .tooltip {
+    opacity:1;
+    z-index: 1;
+}
+
+section{
+    background-color: white;
+    z-index: 2;max-width: 650px;
+}
+
+aside div.cards {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+aside>h3{
+    padding: 1em 0;
+    text-decoration: underline;
+}
+
+aside>div{
+    padding: 0.6em;
+    text-decoration: underline;
+}
+
+/* .behind{
+    position:absolute;
+    bottom: 1px;
+    right: 130px;
+} */
+
+/* header{
+    display: flex;
+    flex-direction: column;
+    
+} */
